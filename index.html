@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <link rel="stylesheet" href="./style.css">
+
   </head>
   <body>
+  
     <header>
       <!-- logo -->
-      <h1>Exceptional Realty Group</h1>
-
+      <h1>Exeptional Realty Group</h1>
+      
       <nav>
         <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
       </nav>
@@ -17,7 +19,7 @@
 
     <section id="featured-property">
       <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group" class="center">
         <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
       </figure>
 
@@ -25,17 +27,30 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
     </section>
 
+   
     <section id="details">
-      <div>
+      
+      <div id="contact" class="footer" style="float: left;">
+        <style>
+          .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+          }
+        </style>
+        <style></style>
         <h3>Contact</h3>
         <p>
-          <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
+          <a href="mailto:info@exceptionalrealty.com" style="width: 25%;" style="float: left;">info@exceptionalrealty.com</a><br>
           +1 710 555 1234<br>
           @fakeRealty
         </p>
       </div>
-      
-      <div>
+      <div id="Correspondence" class="footer" style="width: 25%;"></div>
         <h3>Correspondence</h3>
         <p>
           Exceptional Realty<br>
@@ -44,23 +59,28 @@
         </p>
       </div>
 
-      <div>
+      <div id="links" class="footer" style="width: 25%;" style="float: left;">
         <h3>Links</h3>
         <p>
-          <a href="#" target="_blank">Home Restoration</a><br>
+          <a href="#" target="_blank" style="25%">Home Restoration</a><br>
           <a href="#" target="_blank">Affordable Mortgages</a><br>
           <a href="#" target="_blank">Professional Moving Crew</a>
         </p>
       </div>
 
-      <div>
+      <div id="follow" class="footer" style="width: 25%;" style="float: left;">
         <h3>Follow</h3>
         <p>
-          <a href="#" target="_blank">YouTube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
+          <a href="#" target="_blank" style="width: 200px;">YouTube</a>
+          <br>
+          <a href="#" target="_blank">Facebook</a>
+          <br>
           <a href="#" target="_blank">Twitter</a>
+       
         </p>
+
       </div>
-    </section>
-  </body>
+      </section>
+      </body>
+
 </html>
